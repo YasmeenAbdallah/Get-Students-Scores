@@ -23,7 +23,7 @@ namespace Pearson_Technical_Test.Controllers
         {
             var scoresList = new List<Response>();
 
-            using (var reader = new StreamReader("E:/MyWork/scores.csv"))
+            using (var reader = new StreamReader("scores.csv"))
             {
                 using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
                 {

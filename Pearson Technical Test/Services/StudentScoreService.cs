@@ -65,7 +65,6 @@ namespace Pearson_Technical_Test.Services
             }
             return scoresList;
         }
-      //  public FindScoreTypeAndSort()
         private static bool IsBasicLetter(char c)
         {
             return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
